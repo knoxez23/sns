@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /womens.php/
+Disallow: /kids.php/
+Disallow: /cart.php/
+Disallow: /sale.php/
+Disallow: /wishlist.php/
+Disallow: /signin.php/
+Disallow: /signup.php/
+Disallow: /products.php/
+Disallow: /thankyou.php/
+Disallow: /account.php/
+Disallow: /checkout.php/
+Disallow: /search.php/

@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'Thiccboiregular';
+    src: url('../../assets/fonts/THICCCBOI-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboimedium';
+    src: url('../../assets/fonts/THICCCBOI-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboibold';
+    src: url('../../assets/fonts/THICCCBOI-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Adobelight';
+    src: url('../../assets/fonts/AdobeCleanLight.otf')
+}
+
+@font-face {
+    font-family: 'Adobemedium';
+    src: url('../../assets/fonts/AdobeCleanUXMedium.otf')
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/fonts/GraphikBold.otf')
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: #F6F4FB;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1440px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    background: #F6F4FB;
+    font-family: 'Thiccboiregular';
+}
+
+#visible-page-section {
+    display: flex;
+}
+
+
+
+
+/* START OF defaults */
+
+.chnge-right {
+    display: none;
+}
+
+.active-left-btn {
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+}
+
+.active {
+    color: rgb(1, 112, 1);
+    background: rgb(177, 247, 177);
+    border-radius: 5px;
+}
+
+.inactive {
+    color: rgb(207, 0, 0);
+    background: rgb(248, 157, 157);
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 7px 12px;
+    font-family: 'Thiccboimedium';
+    font-size: 14px;
+    color: #000;
+    background: #999;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #000;
+    width: 150px;
+    align-self: flex-end;
+}
+
+.coupon-btn {
+    font-family: 'Adobemedium';
+    color: #000;
+    background: #999;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 5px 8px;
+    transition: 0.3s ease;
+}
+
+.coupon-btn:hover {
+    background: #444;
+}
+
+.coupon-input {
+    width: 73px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Thiccboimedium';
+    border: 1px solid #999;
+}
+
+.submit-btn:hover {
+    background: lightblue;
+}
+
+/* END OF defaults */
+
+
+
+
+
+
+/* START OF Audience */
+
+#audience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 75%;
+    margin-left: 25%;
+    padding: 20px 40px;
+}
+
+#audience-section .audience-analytics-title {
+    font-family: 'Adobemedium';
+    font-size: 24px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .audience-analytics-contents {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #999;
+}
+
+#audience-section .audience-analytics-contents .pie-charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#audience-section .audience-analytics-contents .pie-charts .pie {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: red;
+}
+
+#audience-section .audience {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#audience-section .customers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #999;
+}
+
+#audience-section .customers-title {
+    font-family: 'Adobemedium';
+    font-size: 24px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .customers-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 0 0 30px 0;
+}
+
+#audience-section .customers-contents .customer-contents-title {
+    display: flex;
+    width: 130%;
+    align-items: center;
+    background: #fff;
+    font-family: 'Thiccboimedium';
+    padding: 10px 0;
+}
+
+.cfname-title,
+.camount-title,
+.cnumber-title {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cemail-title {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cstatus-title,
+.cproduct-title {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cquantity-title {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cdate-title {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .customers-contents .customer-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#audience-section .customers-contents .customer-div {
+    display: flex;
+    width: 130%;
+    font-family: 'Adobelight';
+    background: rgba(194, 194, 194, 0.384);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+#audience-section .customers-contents .customer-div .cfname,
+.cnumber,
+.camount {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .customers-contents .customer-div .cemail {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .customers-contents .customer-div .cstatus,
+.cproduct {
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .customers-contents .customer-div .cquantity {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .customers-contents .customer-div .cdate {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .users {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #999;
+}
+
+#audience-section .users-title {
+    font-family: 'Adobemedium';
+    font-size: 24px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .users-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 30px 0;
+    overflow-x: auto;
+}
+
+#audience-section .users-contents-title {
+    display: flex;
+    padding: 10px 0;
+    background: #fff;
+    width: 100%;
+    font-family: 'Thiccboimedium';
+}
+
+.ufname-title,
+.ucountry-title {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uemail-title {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ustatus-title,
+.unumber-title {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.udate-title {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .users-contents-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#audience-section .users-contents-contents .user-div {
+    display: flex;
+    width: 100%;
+    font-family: 'Adobelight';
+    background: rgba(194, 194, 194, 0.384);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+#audience-section .users-contents-contents .user-div .ufname,
+.ucountry {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .users-contents-contents .user-div .uemail {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audience-section .users-contents-contents .user-div .ustatus,
+.unumber {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#audience-section .users-contents-contents .user-div .udate {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* END OF Audience */

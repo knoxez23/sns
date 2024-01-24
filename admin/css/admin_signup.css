@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Thiccboiregular';
+    src: url('../../assets/fonts/THICCCBOI-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboimedium';
+    src: url('../../assets/fonts/THICCCBOI-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboibold';
+    src: url('../../assets/fonts/THICCCBOI-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Adobelight';
+    src: url('../../assets/fonts/AdobeCleanLight.otf')
+}
+
+@font-face {
+    font-family: 'Adobemedium';
+    src: url('../../assets/fonts/AdobeCleanUXMedium.otf')
+}
+
+
+
+
+
+/* START OF signup */
+
+#signup-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#signup-section .background-signin-left {
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #E6E3EF, #9871a1);
+}
+
+#signup-section .background-signin-right {
+    width: 50%;
+    height: 100vh;
+    background: #F6F4FB;
+}
+
+#signup-section .signup-form {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background: #E6E3EF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#signup-section .signup-form .signup-form-title {
+    font-family: 'Thiccboimedium';
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#signup-section .signup-form #message {
+    font-family: 'Adobemedium';
+    font-size: 13px;
+    color: red;
+    width: fit-content;
+    height: 15px;
+    top: 70px;
+    position: absolute;
+}
+
+#signup-section .signup-form #actual-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup-section .signup-form #actual-form input {
+    color: #000;
+    font-family: 'Thiccboimedium';
+    padding: 12px 7px;
+    width: 300px;
+    font-size: 14px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+#signup-section .signup-form #actual-form .names-signup {
+    display: flex;
+    gap: 20px;
+}
+
+#signup-section .signup-form #actual-form .form-control {
+    padding-bottom: 20px;
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#signup-section .signup-form #actual-form .names-signup .form-control input {
+    width: 132px;
+}
+
+#signup-section .signup-form #actual-form .form-control i {
+    position: absolute;
+    right: 6px;
+    font-size: 13px;
+    top: 15px;
+    color: rgb(255, 0, 0);
+}
+
+#signup-section .signup-form #actual-form .form-control small {
+    position: absolute;
+    font-family: 'Adobemedium';
+    top: 43px;
+    color: red;
+    font-size: 12px;
+    left: 7px;
+}
+
+#signup-section .signup-form #actual-form #sign-up-btn-form {
+    color: #fff;
+    background: #000;
+    font-family: 'Thiccboiregular';
+    width: 150px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#signup-section .signup-form #actual-form #sign-up-btn-form:hover {
+    background: #444;
+}
+
+#signup-section .signup-form #actual-form #sign-up-btn-form:active {
+    background: #000;
+}
+
+/* END OF signup */

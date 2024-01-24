@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Thiccboiregular';
+    src: url('../../assets/fonts/THICCCBOI-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboimedium';
+    src: url('../../assets/fonts/THICCCBOI-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboibold';
+    src: url('../../assets/fonts/THICCCBOI-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Adobelight';
+    src: url('../../assets/fonts/AdobeCleanLight.otf')
+}
+
+@font-face {
+    font-family: 'Adobemedium';
+    src: url('../../assets/fonts/AdobeCleanUXMedium.otf')
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/fonts/GraphikBold.otf')
+}
+
+
+
+
+
+/* START OF signin */
+
+#signin-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#signin-section .background-signin-left {
+    width: 50%;
+    height: 100vh;
+    background: #F6F4FB;
+}
+
+#signin-section .background-signin-right {
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #E6E3EF, #9871a1);
+}
+
+#signin-section .signin-form {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    background: #E6E3EF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#signin-section .signin-form .signin-form-title {
+    font-family: 'Thiccboimedium';
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#message {
+    font-family: 'Adobemedium';
+    color: red;
+    font-size: 13px;
+    top: 82px;
+    position: absolute;
+}
+
+#signin-section .signin-form #actual-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signin-section .signin-form #actual-form .form-control {
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#signin-section .signin-form #actual-form .form-control input {
+    color: #000;
+    font-family: 'Thiccboimedium';
+    padding: 15px 7px;
+    width: 300px;
+    font-size: 14px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+#signin-section .signin-form #actual-form #sign-in-btn-form {
+    color: #fff;
+    background: #000;
+    font-family: 'Thiccboiregular';
+    width: 150px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 5px;
+}
+
+#signin-section .signin-form #actual-form #sign-in-btn-form:hover {
+    background: #444;
+}
+
+#signin-section .signin-form #actual-form #sign-in-btn-form:active {
+    background: #000;
+}
+
+/* END OF signin */

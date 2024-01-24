@@ -1,0 +1,441 @@
+/* START OF wishlist */
+#wishlist {
+	display: flex;
+	gap: 20px;
+}
+
+.left-section {
+	width: 65%;
+	padding-bottom: 110px;
+}
+
+.left-section .path-top {
+	display: flex;
+	padding-top: 15px;
+	flex-direction: column;
+}
+
+.page-path {
+	padding: 15px 0;
+	gap: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.left-section .path-top a {
+	color: #555;
+	font-family: "Thiccboimedium";
+	font-size: 13px;
+	position: relative;
+	text-decoration: none;
+	transition: 0.1s ease;
+}
+
+.left-section .path-top a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.left-section .path-top .path {
+	border-top: 2px solid #000;
+	width: 7px;
+	transform: rotate(135deg);
+	height: 7px;
+	border-left: 2px solid #000;
+}
+
+.left-section .contents-bottom {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-section .contents-bottom .cart-title {
+	display: flex;
+	width: 85%;
+	position: relative;
+}
+
+.left-section .contents-bottom .cart-title::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	left: 0;
+	background: #444;
+	top: 30px;
+}
+
+.left-section .contents-bottom .cart-title .product {
+	width: 40%;
+	text-align: start;
+	color: #444;
+	font-family: "Thiccboimedium";
+}
+
+.left-section .contents-bottom .cart-title .price {
+	width: 20.5%;
+	text-align: center;
+	color: #444;
+	font-family: "Thiccboimedium";
+}
+
+.left-section .contents-bottom .cart-title .qty {
+	width: 28.5%;
+	text-align: center;
+	color: #444;
+	font-family: "Thiccboimedium";
+}
+
+.left-section .contents-bottom .wishlist-contents {
+	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.left-section .contents-bottom .cart-pro {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.left-section .contents-bottom .cart-pro::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background: rgb(176, 172, 172);
+	left: 0;
+	top: 90px;
+}
+
+.left-section .contents-bottom .cart-pro .pro-name {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	width: 35%;
+}
+
+.left-section .contents-bottom .cart-pro .pro-name .pro-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+}
+
+.left-section .contents-bottom .cart-pro .pro-name .pro-img img {
+	width: 100px;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.left-section .contents-bottom .cart-pro .pro-price {
+	width: 25%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.left-section .contents-bottom .cart-pro .pro-price h4 {
+	font-family: "Thiccboibold";
+}
+
+.left-section .contents-bottom .cart-pro .pro-qty {
+	width: 20%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.left-section .contents-bottom .cart-pro .pro-qty .stock-qty {
+	font-family: "Adobebold";
+}
+
+.left-section .contents-bottom .cart-pro .add-to-cart-wishlist-pro {
+	width: 10%;
+	margin-left: 5%;
+	cursor: pointer;
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	color: #000;
+	font-size: 13px;
+	font-family: "Adobemedium";
+	align-items: center;
+	border: 1px solid #000;
+	transition: 0.3s ease;
+}
+
+.left-section .contents-bottom .cart-pro .add-to-cart-wishlist-pro:hover {
+	background: #000;
+	color: #fff;
+}
+
+.left-section .contents-bottom .cart-pro .add-to-cart-wishlist-pro:active {
+	background: #555;
+}
+
+.left-section .contents-bottom .cart-pro .remove {
+	width: 10%;
+	margin-left: 5%;
+	cursor: pointer;
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	color: #000;
+	font-size: 13px;
+	font-family: "Adobemedium";
+	align-items: center;
+	border: 1px solid #000;
+	transition: 0.3s ease;
+}
+
+.left-section .contents-bottom .cart-pro .remove:hover {
+	background: #000;
+	color: #fff;
+}
+
+.left-section .contents-bottom .wishlist-btn {
+	margin-top: 60px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.left-section .contents-bottom .wishlist-btn a {
+	text-decoration: none;
+	border: 1px solid #000;
+	padding: 10px 20px;
+	color: #000;
+	font-size: 13px;
+	font-family: "Thiccboiregular";
+	transition: 0.1s ease;
+}
+
+.left-section .contents-bottom .wishlist-btn a:hover {
+	color: #fff;
+	background: #000;
+}
+
+.btn-wishlist-page {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.right-section {
+	width: 35%;
+	height: 610px;
+	border: 1px solid #999;
+	margin-top: 92px;
+	border-radius: 20px;
+}
+
+.right-section .order-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px 10px;
+}
+
+.right-section .order-details .top-section {
+	display: flex;
+	padding: 10px 25px;
+	flex-direction: column;
+}
+
+.right-section .order-details .top-section .order-title {
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.right-section .order-details .top-section .order-title::after {
+	content: "";
+	left: 0;
+	background: #000;
+	top: 40px;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+}
+
+.right-section .order-details .top-section .order-title h3 {
+	font-family: "Thiccboibold";
+}
+
+.right-section .order-details .top-section .wishlist-order-items {
+	height: 340px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	overflow-y: auto;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview {
+	display: flex;
+	border: 1px solid rgb(217, 214, 214);
+	gap: 30px;
+	padding: 10px 10px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.bg-img {
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	overflow: hidden;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.bg-img
+	img {
+	height: 100%;
+	width: 120px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.item-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.item-title
+	h3 {
+	font-family: "Thiccboibold";
+	font-size: 23px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.size-color {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.size-color {
+	color: #666;
+	font-size: 14px;
+	font-family: "Thiccboiregular";
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.size-color
+	span {
+	color: #000;
+	font-family: "Thiccboimedium";
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.item-price {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	text-align: center;
+	gap: 5px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.item-price
+	h3 {
+	font-family: "Thiccboibold";
+	font-size: 16px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.wishlist-order-items
+	.order-item-preview
+	.item-price
+	.item-qty {
+	font-family: "Thiccboibold";
+	color: #777;
+}
+
+.right-section .order-details .bottom-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.right-section .order-details .bottom-section .final-cta {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 50px;
+}
+
+.right-section .order-details .bottom-section .final-cta .total-amount {
+	display: flex;
+	width: auto;
+	justify-content: space-between;
+	align-items: center;
+	background: #dfdbe9;
+	padding: 14px 25px;
+	border-radius: 10px;
+}
+
+.right-section .order-details .bottom-section .final-cta .total-amount h2 {
+	font-size: 20px;
+	font-family: "Thiccboibold";
+}
+
+.right-section .order-details .bottom-section .final-cta .total-amount {
+	font-size: 18px;
+	font-family: "Thiccboibold";
+}
+
+.right-section .order-details .bottom-section .btn-checkout {
+	margin-top: 15px;
+}
+
+/* END OF wishlist */

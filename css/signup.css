@@ -1,0 +1,133 @@
+/* START OF signup */
+#signup-section {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	position: relative;
+}
+
+#signup-section .background-signin-left {
+	width: 50%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #e6e3ef, #9871a1);
+}
+
+#signup-section .background-signin-right {
+	width: 50%;
+	height: 100vh;
+	background: #f6f4fb;
+}
+
+#signup-section .signup-form {
+	width: 400px;
+	height: 510px;
+	display: flex;
+	border-radius: 25px;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	background: #e6e3ef;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#signup-section .signup-form .signup-form-title {
+	font-family: "Thiccboibold";
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#signup-section .signup-form #message {
+	font-family: "Adobemedium";
+	font-size: 13px;
+	color: red;
+	width: max-content;
+	height: 15px;
+	top: 70px;
+	position: absolute;
+}
+
+#signup-section .signup-form #actual-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#signup-section .signup-form #actual-form input {
+	color: #000;
+	font-family: "Thiccboimedium";
+	padding: 15px;
+	width: 300px;
+	font-size: 14px;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+
+#signup-section .signup-form #actual-form .names-signup {
+	display: flex;
+	gap: 20px;
+}
+
+#signup-section .signup-form #actual-form .form-control {
+	padding-bottom: 20px;
+	display: flex;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#signup-section .signup-form #actual-form .names-signup .form-control input {
+	width: 140px;
+}
+
+#signup-section .signup-form #actual-form .form-control i {
+	position: absolute;
+	right: 6px;
+	font-size: 13px;
+	top: 15px;
+	color: rgb(255, 0, 0);
+}
+
+#signup-section .signup-form #actual-form .form-control small {
+	position: absolute;
+	font-family: "Adobemedium";
+	top: 43px;
+	color: red;
+	font-size: 12px;
+	left: 7px;
+}
+
+#signup-section .signup-form #actual-form #sign-up-btn-form {
+	color: #fff;
+	background: #000;
+	font-family: "Thiccboiregular";
+	width: 150px;
+	padding: 10px 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+#signup-section .signup-form #actual-form #sign-up-btn-form:hover {
+	background: #444;
+}
+
+#signup-section .signup-form #actual-form #sign-up-btn-form:active {
+	background: #000;
+}
+
+#signup-section .signup-form .copyright-signin-text {
+	font-family: "Adobemedium";
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+#signup-section .signup-form .copyright-signin-text i {
+	font-size: 12px;
+}
+
+/* END OF signup */

@@ -1,0 +1,807 @@
+/* START OF checkout */
+#checkout {
+	display: flex;
+	gap: 20px;
+	padding-top: 15px;
+}
+
+.left-section {
+	width: 65%;
+}
+
+.left-section .top-part {
+	display: flex;
+	flex-direction: column;
+}
+
+.left-section .page-path {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.left-section .page-path a {
+	text-decoration: none;
+	color: #555;
+	position: relative;
+	font-size: 13px;
+	font-family: "Thiccboimedium";
+}
+
+.left-section .page-path a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.left-section .page-path .path {
+	height: 7px;
+	width: 7px;
+	margin-top: 1px;
+	border-left: 2px solid #000;
+	border-top: 2px solid #000;
+	transform: rotate(135deg);
+}
+
+.left-section .bottom-part .user-login {
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #222;
+}
+
+.left-section .bottom-part .user-login .left-portion {
+	display: flex;
+	gap: 30px;
+}
+
+.left-section .bottom-part .user-login .left-portion .profile-logo {
+	border-radius: 50%;
+	margin-top: 5px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	border: 1px solid #999;
+	background: #eeebf6;
+}
+
+.left-section .bottom-part .user-login .left-portion .login-info .login-title {
+	display: flex;
+	gap: 10px;
+	width: max-content;
+	margin-bottom: 10px;
+	height: 32px;
+	padding: 0 15px;
+	align-items: center;
+}
+
+.left-section
+	.bottom-part
+	.user-login
+	.left-portion
+	.login-info
+	.login-title
+	h3 {
+	font-family: "Thiccboimedium";
+	color: #777;
+}
+
+.left-section
+	.bottom-part
+	.user-login
+	.left-portion
+	.login-info
+	.login-details {
+	width: max-content;
+	padding: 0 15px;
+}
+
+.left-section
+	.bottom-part
+	.user-login
+	.left-portion
+	.login-info
+	.login-details
+	span {
+	padding-left: 20px;
+}
+
+.btn-change {
+	cursor: pointer;
+	padding: 6px 20px;
+	background: #000;
+	color: #fff;
+	font-family: "Thiccboiregular";
+	font-size: 12px;
+	border-radius: 20px;
+	transition: 0.1s ease;
+}
+
+.btn-change:hover {
+	background: #444;
+}
+
+.left-section
+	.bottom-part
+	.user-login
+	.left-portion
+	.login-info
+	.login-details
+	h2 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.left-section .bottom-part .delivery-address {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #222;
+}
+
+.left-section .bottom-part .delivery-address .left-portion {
+	display: flex;
+	gap: 30px;
+}
+
+.left-section .bottom-part .delivery-address .left-portion .delivery-logo {
+	border-radius: 50%;
+	margin-top: 5px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	border: 1px solid #999;
+	background: #eeebf6;
+}
+
+.left-section
+	.bottom-part
+	.delivery-address
+	.left-portion
+	.delivery-info
+	.delivery-title {
+	display: flex;
+	gap: 10px;
+	width: max-content;
+	height: 32px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	align-items: center;
+}
+
+.left-section
+	.bottom-part
+	.delivery-address
+	.left-portion
+	.delivery-info
+	.delivery-title
+	h3 {
+	font-family: "Thiccboimedium";
+	color: #777;
+}
+
+.left-section
+	.bottom-part
+	.delivery-address
+	.left-portion
+	.delivery-info
+	.address-details {
+	width: max-content;
+	padding: 0 15px;
+}
+
+.left-section
+	.bottom-part
+	.delivery-address
+	.left-portion
+	.delivery-info
+	.address-details
+	h2 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.left-section .bottom-part .payment-methods {
+	display: flex;
+	margin-top: 40px;
+	flex-direction: column;
+}
+
+.left-section .bottom-part .payment-methods .payment-content {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.left-section .bottom-part .payment-methods .payment-title {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+	background: #eeebf6;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	align-items: center;
+}
+
+.left-section .bottom-part .payment-methods .payment-title .payment-logo {
+	border-radius: 50%;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	background: #000;
+}
+
+.left-section .bottom-part .payment-methods .payment-title h3 {
+	font-family: "Thiccboibold";
+	color: #000;
+	margin-left: 40px;
+}
+
+.left-section .bottom-part .payment-methods .payment-method-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.payment-content {
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+
+.left-section .bottom-part .payment-methods .payment-column-title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.left-section .bottom-part .payment-methods .payment-column-title-card {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	gap: 20px;
+}
+
+.left-section .bottom-part .payment-methods .payment-column-select {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #555;
+	cursor: pointer;
+	border-radius: 50%;
+	background: #fff;
+	transition: 0.25s ease;
+	background: #000;
+	border: 1px solid #000;
+}
+
+.left-section
+	.bottom-part
+	.payment-methods
+	.payment-column-title
+	.payment-column-logo {
+	border-radius: 10px;
+	margin-left: 15px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	border: 2px solid #000;
+	transition: 0.25s ease;
+}
+
+.left-section
+	.bottom-part
+	.payment-methods
+	.payment-column-title-card
+	.payment-column-logo {
+	border-radius: 10px;
+	margin-left: 15px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	border: 2px solid rgb(186, 184, 184);
+	transition: 0.25s ease;
+}
+
+.left-section .bottom-part .payment-methods .payment-column-title h3 {
+	font-family: "Thiccboibold";
+	font-size: 16px;
+}
+
+.left-section .bottom-part .payment-methods .payment-column-content {
+	max-height: 0;
+	transition: 0.25s ease;
+	padding: 0px 60px;
+	overflow: hidden;
+}
+
+.left-section .bottom-part .payment-methods .payment-column-content-card {
+	padding: 0px 60px;
+}
+
+.left-section
+	.bottom-part
+	.payment-methods
+	.payment-column-title-card.pay-active
+	.payment-column-select {
+	background: #000;
+	border: 1px solid #000;
+}
+
+.left-section
+	.bottom-part
+	.payment-methods
+	.payment-column-title-card.pay-active
+	.payment-column-logo {
+	border: 2px solid #000;
+}
+
+.card-payment-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+	width: 100%;
+}
+
+.card-payment-form .card-number {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 15px;
+}
+
+.card-payment-form .card-number-title {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.card-payment-form .card-number-title h3 {
+	font-family: "Thiccboibold";
+	font-size: 18px;
+}
+
+.card-payment-form .card-number-title h5 {
+	font-family: "Thiccboiregular";
+	font-size: 14px;
+}
+
+.card-payment-form .card-number-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	width: 100%;
+}
+
+.card-payment-form .card-dets {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 20px;
+}
+
+.valid-no-error {
+	color: red;
+	font-family: "Thiccboiregular";
+	display: none;
+}
+
+.card-payment-form .card-dets input {
+	padding: 15px 20px;
+	font-family: "Thiccboimedium";
+	border: 1px solid #999;
+	border-radius: 10px 10px 10px 10px;
+	width: 100%;
+	font-size: 16px;
+}
+
+#checkout-submit-dets {
+	padding: 20px 0;
+	background: #000;
+	cursor: pointer;
+	color: #fff;
+	font-family: "Thiccboiregular";
+	font-size: 14px;
+	margin-top: 20px;
+	width: 100%;
+	transition: 0.1s ease;
+}
+
+#checkout-submit-dets:hover {
+	background: #444;
+}
+
+#checkout-submit-dets:disabled {
+	background: #999;
+	cursor: default;
+}
+
+#confirm-paid {
+	padding: 20px 0;
+	background: green;
+	box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+	cursor: pointer;
+	color: #fff;
+	font-family: "Thiccboibold";
+	font-size: 14px;
+	margin-top: 20px;
+	width: 100%;
+	transition: 0.1s ease;
+	display: none;
+}
+
+#confirm-paid:hover {
+	background: rgb(27, 175, 27);
+}
+
+.right-section {
+	width: 35%;
+	height: 100%;
+	border: 1px solid #999;
+	margin-top: 125px;
+	border-radius: 20px;
+}
+
+.right-section .order-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px 10px;
+}
+
+.right-section .order-details .top-section {
+	display: flex;
+	padding: 10px 25px;
+	flex-direction: column;
+}
+
+.right-section .order-details .top-section .order-title {
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.right-section .order-details .top-section .order-title::after {
+	content: "";
+	left: 0;
+	background: #000;
+	top: 40px;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+}
+
+.right-section .order-details .top-section .order-title h3 {
+	font-family: "Thiccboibold";
+}
+
+.right-section .order-details .top-section .checkout-order-items {
+	height: 340px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	overflow-y: auto;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview {
+	display: flex;
+	border: 1px solid rgb(217, 214, 214);
+	gap: 30px;
+	padding: 10px 10px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.bg-img {
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	overflow: hidden;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.bg-img
+	img {
+	height: 100%;
+	width: 120px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.item-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.item-title
+	h3 {
+	font-family: "Thiccboibold";
+	font-size: 23px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.size-color {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.size-color {
+	color: #666;
+	font-size: 14px;
+	font-family: "Thiccboiregular";
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.size-color
+	span {
+	color: #000;
+	font-family: "Thiccboimedium";
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.item-price {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	text-align: center;
+	gap: 5px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.item-price
+	h3 {
+	font-family: "Thiccboibold";
+	font-size: 16px;
+}
+
+.right-section
+	.order-details
+	.top-section
+	.checkout-order-items
+	.checkout-order-item-preview
+	.item-price
+	.item-qty {
+	font-family: "Thiccboibold";
+	color: #777;
+}
+
+.right-section .order-details .bottom-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-section .order-details .bottom-section .shipping-details {
+	display: flex;
+	margin-top: 10px;
+	padding: 10px 25px;
+	gap: 15px;
+	flex-direction: column;
+}
+
+.right-section .order-details .bottom-section .shipping-details .shipping-fee {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.right-section
+	.order-details
+	.bottom-section
+	.shipping-details
+	.shipping-fee
+	h3 {
+	font-family: "Thiccboimedium";
+	font-size: 17px;
+	color: #666;
+}
+
+.right-section
+	.order-details
+	.bottom-section
+	.shipping-details
+	.shipping-fee
+	.fee {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: #000;
+	font-size: 15px;
+	font-family: "Thiccboimedium";
+}
+
+.right-section
+	.order-details
+	.bottom-section
+	.shipping-details
+	.discount-section {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.right-section
+	.order-details
+	.bottom-section
+	.shipping-details
+	.discount-section
+	h3 {
+	font-family: "Thiccboimedium";
+	font-size: 17px;
+	color: #666;
+}
+
+.right-section
+	.order-details
+	.bottom-section
+	.shipping-details
+	.discount-section
+	.discount {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: #000;
+	font-size: 15px;
+	font-family: "Thiccboimedium";
+}
+
+.right-section .order-details .bottom-section .final-cta {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-section .order-details .bottom-section .final-cta .coupon {
+	display: flex;
+	padding: 0px 25px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.right-section .order-details .bottom-section .final-cta .coupon input {
+	padding: 10px 20px;
+	border-radius: 10px 0 0 10px;
+	width: 80%;
+	font-size: 18px;
+	font-family: "Thiccboiregular";
+}
+
+.right-section .order-details .bottom-section .final-cta .total-amount {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #dfdbe9;
+	padding: 10px 25px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.right-section .order-details .bottom-section .final-cta .total-amount h2 {
+	font-size: 18px;
+	font-family: "Thiccboibold";
+}
+
+.right-section .order-details .bottom-section .final-cta .total-amount {
+	font-size: 18px;
+	font-family: "Thiccboibold";
+}
+
+#transaction {
+	width: 96%;
+	position: fixed;
+	z-index: 1000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#transaction .btn-close {
+	font-size: 20px;
+	cursor: pointer;
+	background: bisque;
+	padding: 10px;
+	border-radius: 20%;
+}
+
+/* END OF checkout */
+
+@media screen and (max-width: 480px) {
+	#checkout {
+		flex-direction: column;
+	}
+
+	.left-section {
+		width: 100%;
+	}
+
+	.left-section .bottom-part .user-login {
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.left-section .bottom-part .user-login .left-portion,
+	.left-section .bottom-part .delivery-address .left-portion {
+		gap: 15px;
+	}
+
+	.left-section .bottom-part .user-login .right-portion,
+	.left-section .bottom-part .delivery-address .right-portion {
+		align-self: flex-end;
+	}
+
+	.left-section .bottom-part .delivery-address {
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.left-section .bottom-part .payment-methods .payment-column-content-card {
+		padding: 10px 0;
+	}
+
+	.right-section {
+		margin-top: 0;
+		width: 100%;
+	}
+}

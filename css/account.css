@@ -1,0 +1,424 @@
+/* START OF account */
+#account {
+	padding-bottom: 110px;
+}
+
+#account .top-title {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#account .top-title .user {
+	display: flex;
+	margin-top: 30px;
+	gap: 20px;
+	align-items: center;
+}
+
+#account .top-title .user .user-name {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+
+#account .top-title .user .user-name h4 {
+	font-size: 24px;
+	font-family: "Thiccboibold";
+}
+
+#account .top-title .user .user-name h6 {
+	font-size: 13px;
+	font-family: "Thiccboibold";
+}
+
+#account .bottom-contents {
+	gap: 100px;
+	display: flex;
+}
+
+#account .bottom-contents .left-section {
+	display: flex;
+	margin-top: 45px;
+	width: 25%;
+	flex-direction: column;
+	gap: 20px;
+}
+
+#account .bottom-contents .left-section .account-details {
+	padding: 15px 20px;
+	cursor: pointer;
+	display: flex;
+	gap: 30px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+#account .bottom-contents .left-section .orders {
+	padding: 15px 20px;
+	cursor: pointer;
+	display: flex;
+	gap: 30px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+}
+
+#account .bottom-contents .right-section {
+	padding: 0px 40px 40px 40px;
+	width: 60%;
+	transition: 0.3s ease;
+}
+
+#account .bottom-contents .right-section .account-right {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+#account .bottom-contents .right-section .account-right .title h3 {
+	font-family: "Thiccboibold";
+	font-size: 24px;
+}
+
+#account .bottom-contents .right-section .account-right .contents {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.account-right
+	.contents
+	.veri-details {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.activateDivs {
+	background: white;
+	border-top: 1px solid #444;
+	border-left: 1px solid #444;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 2px;
+}
+
+#account .bottom-contents .right-section .account-right .contents .user {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	font-family: "Thiccboibold";
+}
+
+#account .bottom-contents .right-section .account-right .contents .user-dets {
+	padding: 15px 20px;
+	width: 400px;
+	font-family: "Thiccboimedium";
+	border: 1px solid #777;
+	border-radius: 10px;
+	transition: 0.3s ease;
+}
+
+#account .bottom-contents .right-section .account-right .contents .email-input {
+	border: 1px solid #000;
+	background: #ffe2e2;
+}
+
+#account .bottom-contents .right-section .account-right .contents .location {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.account-right
+	.contents
+	.location
+	.loc-title {
+	font-family: "Thiccboimedium";
+	font-size: 22px;
+	margin-top: 45px;
+}
+
+#account .bottom-contents .right-section .account-right #userCountry {
+	width: 58.5%;
+	padding: 17px 0;
+	font-family: "Thiccboimedium";
+	border: 1px solid #000;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+#account .bottom-contents .right-section .account-right .contents .delete-acc {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	position: relative;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.account-right
+	.contents
+	.delete-acc::before {
+	content: "";
+	width: 100%;
+	position: absolute;
+	background: #444;
+	height: 1px;
+	left: 0;
+	top: -15px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.account-right
+	.contents
+	.delete-acc
+	h3 {
+	font-family: "Thiccboibold";
+	font-size: 17px;
+}
+
+#account .bottom-contents .right-section .account-right .contents .save {
+	width: 400px;
+	align-items: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.success-update-message-account {
+	position: fixed;
+	display: none;
+	color: green;
+	background: rgb(136, 250, 136);
+	border-top: 2px solid green;
+	font-family: "Adobelight";
+	right: 10%;
+	transition: 0.4s ease;
+}
+
+#account .bottom-contents .right-section .orders-right {
+	display: flex;
+	display: none;
+	flex-direction: column;
+}
+
+#account .bottom-contents .right-section .orders-right .title h3 {
+	font-family: "Thiccboibold";
+	font-size: 24px;
+}
+
+#account .bottom-contents .right-section .orders-right .order-contents {
+	display: flex;
+	flex-direction: column;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-titles {
+	display: flex;
+	margin-top: 30px;
+	position: relative;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-titles::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background: #000;
+	top: 30px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-titles
+	.pro-title {
+	font-family: "Thiccboibold";
+	width: 40%;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-titles
+	.order-status {
+	font-family: "Thiccboibold";
+	width: 35%;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-titles
+	.date-delivered {
+	font-family: "Thiccboibold";
+	width: 25%;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.all-orders {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+	gap: 20px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-preview {
+	display: flex;
+	padding: 10px 10px;
+	border: 1px solid rgb(170, 168, 168);
+	border-radius: 10px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-preview
+	.pro-order {
+	display: flex;
+	width: 40%;
+	gap: 10px;
+	font-family: "Thiccboibold";
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-preview
+	.pro-order
+	.bg-image
+	img {
+	height: 100%;
+	width: 120px;
+	border-radius: 7px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-preview
+	.pro-order
+	.pro-details {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-preview
+	.order-status {
+	display: flex;
+	flex-direction: column;
+	font-family: "Thiccboibold";
+	gap: 20px;
+	width: 35%;
+}
+
+#account
+	.bottom-contents
+	.right-section
+	.orders-right
+	.order-contents
+	.order-preview
+	.delivery-date {
+	font-family: "Adobebold";
+	font-size: 16px;
+	width: 20%;
+	margin-left: 10px;
+}
+
+.logout-btn,
+.btn-delete {
+	cursor: pointer;
+	padding: 10px 20px;
+	background: #000;
+	color: #fff;
+	font-family: "Thiccboiregular";
+	font-size: 12px;
+	transition: 0.1s ease;
+}
+
+.logout-btn:hover,
+.btn-delete:hover {
+	background: #444;
+}
+
+@media screen and (max-width: 480px) {
+	.section-p1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.bottom-contents {
+		flex-direction: column;
+	}
+	#account .bottom-contents .left-section {
+		width: 100%;
+	}
+	#account .top-title .title h2 {
+		font-size: 25px;
+	}
+	#account .top-title .user .user-name h4 {
+		font-size: 20px;
+	}
+	#account .bottom-contents .right-section {
+		width: 100%;
+		padding: 0;
+	}
+	#account .bottom-contents .right-section .account-right .contents .user-dets {
+		width: auto;
+	}
+	#account .bottom-contents .right-section .account-right .contents .save {
+		width: auto;
+	}
+	#account .bottom-contents .right-section .account-right .contents .delete-acc {
+		width: auto;
+	}
+}
+
+/* END OF account */

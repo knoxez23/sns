@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Thiccboiregular';
+    src: url('../../assets/fonts/THICCCBOI-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboimedium';
+    src: url('../../assets/fonts/THICCCBOI-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'Thiccboibold';
+    src: url('../../assets/fonts/THICCCBOI-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Adobelight';
+    src: url('../../assets/fonts/AdobeCleanLight.otf')
+}
+
+@font-face {
+    font-family: 'Adobemedium';
+    src: url('../../assets/fonts/AdobeCleanUXMedium.otf')
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/fonts/GraphikBold.otf')
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: #F6F4FB;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1440px;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    background: #F6F4FB;
+    font-family: 'Thiccboiregular';
+}
+
+#visible-page-section {
+    display: flex;
+}
+
+
+
+
+/* START OF defaults */
+
+.chnge-right{
+    display: none;
+}
+
+.active-left-btn {
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+}
+
+.active{
+    color: rgb(1, 112, 1);
+    background: rgb(177, 247, 177);
+    border-radius: 5px;
+}
+
+.inactive{
+    color: rgb(207, 0, 0);
+    background: rgb(248, 157, 157);
+    border-radius: 5px;
+}
+
+.submit-btn{
+    padding: 7px 12px;
+    font-family: 'Thiccboimedium';
+    font-size: 14px;
+    color: #000;
+    background: #999;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #000;
+    width: 150px;
+    align-self: flex-end;
+}
+
+.coupon-btn{
+    font-family: 'Adobemedium';
+    color: #000;
+    background: #999;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 5px 8px;
+    transition: 0.3s ease;
+}
+
+.coupon-btn:hover{
+    background: #444;
+}
+
+.coupon-input{
+    width: 73px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Thiccboimedium';
+    border: 1px solid #999;
+}
+
+.submit-btn:hover{
+    background: lightblue;
+}
+
+/* END OF defaults */
+
+
+
+/* START OF Dashboard */
+#dashboard-section {
+    width: 75%;
+    margin-left: 25%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#dashboard-section .top-analytics-earnings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+#dashboard-section .top-analytics-earnings .section-title {
+    font-family: 'Adobemedium';
+    font-size: 22px;
+    padding: 5px 10px;
+    background: #000;
+    color: #fff;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details .top-btm-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details .analytics-dtls {
+    padding: 15px 20px;
+    width: 270px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details .dash-logo-div{
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(243, 206, 255);
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details .analy-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details .analy-title h5 {
+    font-family: 'Adobelight';
+    font-size: 14px;
+}
+
+#dashboard-section .top-analytics-earnings .bottom-details .analy-title h3 {
+    font-size: 22px;
+}
+
+#dashboard-section .center-analytics-views-chart{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 40px;
+}
+
+#dashboard-section .center-analytics-views-chart .chart{
+    width: 65%;
+    background: rgb(210, 241, 252);
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 310px;
+}
+
+#dashboard-section .center-analytics-views-chart .chart .chart-title{
+    font-family: 'Adobemedium';
+}
+
+#dashboard-section .center-analytics-views-chart .chart .chart-div{
+    background: #fff;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dashboard-section .center-analytics-views-chart .chart .chart-div canvas{
+    width: 100%;
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details{
+    width: 30%;
+    padding: 0 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details .cntr-rig-dtls{
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    background: rgb(238, 238, 238);
+    height: 100px;
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details .cntr-rig-dtls h2{
+    font-family: 'Thiccboibold';
+    color: purple;
+    font-size: 35px;
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details .new-clients-title{
+    font-family: 'Adobemedium';
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details .new-clients-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details .new-clients-details h6{
+    background: rgb(193, 255, 193);
+    padding: 2px 5px;
+    color: rgb(0, 90, 0);
+    border-radius: 5px;
+}
+
+#dashboard-section .center-analytics-views-chart .shop-details .total-items-title {
+    font-family: 'Adobemedium';
+}
+
+#dashboard-section .bottom-target-achieved-percent{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers{
+    width: 45%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .ltst-cont{
+    padding: 15px;
+    height: 470px;
+    background: rgb(233, 233, 233);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content h4{
+    font-family: 'Adobelight';
+    font-size: 15px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content h5{
+    font-family: 'Adobelight';
+    font-size: 13px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content h6 {
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content h6.subd{
+    color: rgb(0, 90, 0);
+    background: rgb(193, 255, 193);
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content h6.not-subd{
+    color: rgb(192, 0, 0);
+    background: lightcoral;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content .customer-div{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    padding: 15px 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content .customer-div .customer-details{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content .customer-div .email-info{
+    font-family: 'Adobemedium';
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-customers-content .customer-div .email-info:hover{
+    background: rgb(206, 206, 206);
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-transactions {
+    width: 57%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-transactions .transaction-div{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 17px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-transactions .transaction-div #bought-product-name{
+    color: blue;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-transactions .transaction-div #bought-product-quantity{
+    font-family: 'Adobemedium';
+    font-size: 16px;
+}
+
+#dashboard-section .bottom-target-achieved-percent .latest-transactions .transaction-div .total-amount-transacted{
+    font-family: 'Adobemedium';
+    color: rgb(0, 102, 0);
+    background: rgb(177, 247, 177);
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+#dashboard-section .add-goals .section-title {
+    font-family: 'Adobemedium';
+    font-size: 22px;
+    padding: 5px 10px;
+    background: #000;
+    color: #fff;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#dashboard-section .add-goals .bottom-dets{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dashboard-section .add-goals .bottom-dets .income{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#dashboard-section .add-goals label,
+.label {
+    font-family: 'Adobemedium';
+}
+
+#dashboard-section .add-goals input {
+    padding: 15px;
+    font-family: 'Thiccboimedium';
+    border-radius: 5px;
+    border: 1px solid #999;
+    transition: 0.2s ease;
+}
+
+#dashboard-section .add-goals input:focus {
+    border: 1px solid #000;
+}
+
+.submit-btn {
+    padding: 7px 12px;
+    font-family: 'Thiccboimedium';
+    font-size: 14px;
+    color: #000;
+    background: #999;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #000;
+    width: 150px;
+    align-self: flex-end;
+}
+
+.submit-btn:hover {
+    background: lightblue;
+}
+/* END OF Dashboard */

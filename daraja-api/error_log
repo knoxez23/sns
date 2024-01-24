@@ -1,0 +1,25 @@
+[27-Dec-2023 15:40:29 Africa/Nairobi] PHP Warning:  Undefined array key "prodId" in /home/snshopco/public_html/daraja-api/stkpush.php on line 9
+[27-Dec-2023 15:40:29 Africa/Nairobi] PHP Warning:  Undefined array key "qty" in /home/snshopco/public_html/daraja-api/stkpush.php on line 11
+[27-Dec-2023 15:40:29 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type null in /home/snshopco/public_html/daraja-api/stkpush.php on line 34
+[27-Dec-2023 15:40:30 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$CheckoutRequestID in /home/snshopco/public_html/daraja-api/stkpush.php on line 83
+[27-Dec-2023 15:40:30 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$ResponseCode in /home/snshopco/public_html/daraja-api/stkpush.php on line 84
+[27-Dec-2023 15:41:33 Africa/Nairobi] PHP Warning:  Undefined array key "prodId" in /home/snshopco/public_html/daraja-api/stkpush.php on line 9
+[27-Dec-2023 15:41:33 Africa/Nairobi] PHP Warning:  Undefined array key "qty" in /home/snshopco/public_html/daraja-api/stkpush.php on line 11
+[27-Dec-2023 15:41:33 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type null in /home/snshopco/public_html/daraja-api/stkpush.php on line 34
+[27-Dec-2023 15:41:34 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$CheckoutRequestID in /home/snshopco/public_html/daraja-api/stkpush.php on line 83
+[27-Dec-2023 15:41:34 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$ResponseCode in /home/snshopco/public_html/daraja-api/stkpush.php on line 84
+[27-Dec-2023 12:42:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/snshopco/public_html/daraja-api/confirm.php on line 27
+[27-Dec-2023 12:42:10 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: null * string in /home/snshopco/public_html/daraja-api/confirm.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/snshopco/public_html/daraja-api/confirm.php on line 28
+[27-Dec-2023 15:42:37 Africa/Nairobi] PHP Warning:  Undefined array key "prodId" in /home/snshopco/public_html/daraja-api/stkpush.php on line 9
+[27-Dec-2023 15:42:37 Africa/Nairobi] PHP Warning:  Undefined array key "qty" in /home/snshopco/public_html/daraja-api/stkpush.php on line 11
+[27-Dec-2023 15:42:37 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type null in /home/snshopco/public_html/daraja-api/stkpush.php on line 34
+[27-Dec-2023 15:42:38 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$CheckoutRequestID in /home/snshopco/public_html/daraja-api/stkpush.php on line 83
+[27-Dec-2023 15:42:38 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$ResponseCode in /home/snshopco/public_html/daraja-api/stkpush.php on line 84
+[27-Dec-2023 15:46:31 Africa/Nairobi] PHP Warning:  Undefined array key "prodId" in /home/snshopco/public_html/daraja-api/stkpush.php on line 9
+[27-Dec-2023 15:46:31 Africa/Nairobi] PHP Warning:  Undefined array key "qty" in /home/snshopco/public_html/daraja-api/stkpush.php on line 11
+[27-Dec-2023 15:46:31 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type null in /home/snshopco/public_html/daraja-api/stkpush.php on line 34
+[27-Dec-2023 15:46:31 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$CheckoutRequestID in /home/snshopco/public_html/daraja-api/stkpush.php on line 83
+[27-Dec-2023 15:46:31 Africa/Nairobi] PHP Warning:  Undefined property: stdClass::$ResponseCode in /home/snshopco/public_html/daraja-api/stkpush.php on line 84

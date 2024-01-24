@@ -1,0 +1,181 @@
+/* START OF signin */
+#signin-section {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	position: relative;
+}
+
+#signin-section .background-signin-left {
+	width: 50%;
+	height: 100vh;
+	background: #f6f4fb;
+}
+
+#signin-section .background-signin-right {
+	width: 50%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #e6e3ef, #9871a1);
+}
+
+#signin-section .signin-form {
+	width: 400px;
+	height: 450px;
+	display: flex;
+	border-radius: 25px;
+	align-items: center;
+	flex-direction: column;
+	background: #e6e3ef;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#signin-section .signin-form .signin-form-title {
+	font-family: "Thiccboibold";
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+#message {
+	font-family: "Adobemedium";
+	color: red;
+	font-size: 13px;
+	top: 82px;
+	position: absolute;
+}
+
+#signin-section .signin-form #actual-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#signin-section .signin-form #actual-form .form-control {
+	padding-bottom: 15px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#signin-section .signin-form #actual-form .form-control input {
+	color: #000;
+	font-family: "Thiccboimedium";
+	padding: 15px 20px;
+	width: 300px;
+	font-size: 14px;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+
+#signin-section .signin-form #actual-form #sign-in-btn-form {
+	color: #fff;
+	background: #000;
+	font-family: "Thiccboiregular";
+	width: 150px;
+	padding: 10px 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	margin-top: 5px;
+	border-radius: 20px;
+}
+
+#signin-section .signin-form #actual-form #sign-in-btn-form:hover {
+	background: #444;
+}
+
+#signin-section .signin-form #actual-form #sign-in-btn-form:active {
+	background: #000;
+}
+
+#signin-section .signin-form .signup-option {
+	font-family: "Thiccboimedium";
+	font-size: 14px;
+	display: flex;
+	gap: 7px;
+	margin-top: 20px;
+}
+
+#signin-section .signin-form .signup-option a {
+	color: #4007c4;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+#signin-section .signin-form .signup-option a:hover {
+	text-decoration: underline;
+}
+
+#signin-section .signin-form .or-divider {
+	font-family: "Thiccboimedium";
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#signin-section .signin-form .or-divider .or-lines {
+	width: 20px;
+	height: 10px;
+	position: relative;
+}
+
+#signin-section .signin-form .or-divider .or-lines::after {
+	content: "";
+	background: #555;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 11px;
+}
+
+#signin-section .signin-form .signup-other-options {
+	display: flex;
+	gap: 20px;
+	font-family: "Thiccboimedium";
+	font-size: 14px;
+}
+
+#signin-section .signin-form .signup-other-options .signup-google {
+	border: 1px solid #777;
+	width: 120px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	justify-content: center;
+	cursor: pointer;
+	height: 45px;
+}
+
+#signin-section .signin-form .signup-other-options .signup-google:hover {
+	background: #f6f4fb;
+}
+
+#signin-section .signin-form .signup-other-options .signup-facebook {
+	border: 1px solid #777;
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 10px;
+	height: 45px;
+}
+
+#signin-section .signin-form .signup-other-options .signup-facebook:hover {
+	background: #f6f4fb;
+}
+
+#signin-section .signin-form .copyright-signin-text {
+	font-family: "Adobemedium";
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+#signin-section .signin-form .copyright-signin-text i {
+	font-size: 12px;
+}
+
+/* END OF signin */

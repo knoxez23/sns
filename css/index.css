@@ -1,0 +1,424 @@
+/* START OF hero */
+#hero {
+  max-height: 1280px;
+  position: relative;
+  z-index: 200;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 120px;
+  background: linear-gradient(45deg, rgba(236, 228, 255, 0.9) 40%, red 40%);
+}
+
+.decorations {
+  z-index: 100;
+}
+
+.rectop {
+  background: transparent;
+  border: 1px solid #ad2dc1;
+  height: 20px;
+  width: 20px;
+  left: 40%;
+  position: absolute;
+  top: 20%;
+  transform: rotate(20deg);
+}
+.reccenter {
+  background: transparent;
+  border: 1px solid #000;
+  height: 20px;
+  width: 20px;
+  left: 30%;
+  position: absolute;
+  top: 55%;
+  transform: rotate(20deg);
+}
+.recbottom {
+  background: transparent;
+  border: 1px solid #37148a;
+  height: 30px;
+  width: 30px;
+  left: 80%;
+  position: absolute;
+  top: 90%;
+  transform: rotate(20deg);
+}
+.recright {
+  background: transparent;
+  border: 1px solid #37148a;
+  height: 15px;
+  width: 15px;
+  left: 90%;
+  position: absolute;
+  top: 15%;
+  transform: rotate(-20deg);
+}
+
+.hero-content-left {
+  margin-top: 50px;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.hero-content-left h1 {
+  font-family: "Silkscreen";
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 1.5s ease-in-out; /* Adjust the duration and timing function as needed */
+  animation-fill-mode: forwards; /* Keeps the final state of the animation */
+}
+
+.hero-content-left h2 {
+  padding: 20px 0;
+  font-family: "Pacifico";
+  font-size: 30px;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fadeIn 1.5s ease-in-out; /* Adjust the duration and timing function as needed */
+  animation-fill-mode: forwards; /* Keeps the final state of the animation */
+}
+
+#shop-all-btn {
+  margin-top: 30px;
+  text-decoration: none;
+  max-width: max-content;
+}
+
+.btn-shop {
+  font-family: 'Pacifico';
+  color: black;
+  border: 2px solid #777;
+  padding: 10px;
+}
+
+.hero-cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.hero-cards .hero-card1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hero-cards .card-img-bg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-cards img {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.hero-cards .hero-card1:hover img {
+  transform: scale(1.04);
+}
+
+.card-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(185, 184, 255);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card-name h6 {
+  font-size: 12px;
+  font-family: "Thiccboibold";
+}
+
+.card-name h3 {
+  font-size: 13px;
+  font-family: "Adobebold";
+}
+
+.hero-card-sale {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-family: "Adobelight";
+  background-color: #000;
+  top: 0;
+  font-size: 12px;
+  right: 0;
+}
+
+.right-showcase {
+  width: 500px;
+  margin-top: 5%;
+  height: 500px;
+  position: relative;
+  z-index: 80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-showcase-shape {
+  width: 500px;
+  z-index: -1;
+  height: 500px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.right-showcase img {
+  width: 90%;
+  border-radius: 30px;
+  rotate: -30deg;
+}
+
+.right-showcase h1 {
+  position: absolute;
+  font-family: "Sawah";
+  color: #fff;
+  cursor: default;
+  z-index: 200;
+}
+/* END OF hero */
+
+/* START OF aero */
+#aero {
+  padding: 40px;
+  /* background: #e6e3ef; */
+  height: 500px;
+  position: relative;
+  margin-bottom: 110px;
+}
+
+.aero-company-offers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.aero-company-offers span {
+  color: #2907db;
+}
+
+.company-offers-cards {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.company-offers-cards p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.company-offers-cards h3::after {
+  content: "";
+  background-color: rgba(72, 67, 75, 0.391);
+  height: 1px;
+  width: 50%;
+  left: 25%;
+  top: 25px;
+  position: absolute;
+}
+
+.company-offers-cards .aero-card {
+  background: #f6f4fb;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.company-offers-cards h3 {
+  font-size: 16px;
+  color: #12132d;
+  position: relative;
+  font-family: "Thiccboibold";
+}
+
+.company-offers-cards .card-image-bg {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 50%;
+  display: flex;
+  cursor: default;
+  align-items: center;
+  justify-content: center;
+  background: #e6e3ef;
+  margin-bottom: 10px;
+}
+/* END OF aero */
+
+/* START OF banner */
+#banner {
+  margin-bottom: 110px;
+}
+
+.banner-bg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 300px;
+  background: linear-gradient(
+    to right,
+    rgba(42, 23, 216, 0.8),
+    rgba(255, 0, 128, 0.8)
+  );
+}
+
+.banner-bg h2 {
+  font-family: "Arthead";
+}
+
+.banner-bg p {
+  font-family: "Thiccboibold";
+}
+
+#banner-shop-btn {
+  text-decoration: none;
+  max-width: max-content;
+  font-weight: 200;
+}
+
+.banner-bg h2 span {
+  color: white;
+}
+/* END OF banner */
+
+/* START OF testimonials */
+#testimonials {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-bottom: 110px;
+}
+
+.testimonials-title {
+  text-align: center;
+}
+
+.testimonials-title h2 {
+  position: relative;
+}
+
+.testimonials-title h2::after {
+  content: "";
+  background-color: #000;
+  height: 1px;
+  width: 50%;
+  left: 25%;
+  top: 65px;
+  position: absolute;
+}
+
+.testimonial-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-cards .testimonial-card1 {
+  width: 30%;
+  display: flex;
+  background: #e6e3ef;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px 20px;
+  flex-direction: column;
+}
+
+.testimonial-title {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-name h4 {
+  font-size: 15px;
+  position: relative;
+  font-family: "Thiccboiregular";
+}
+
+.testimonial-name h4::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  left: 0;
+  background: #000;
+  top: 25px;
+}
+
+.testimonial-verified {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.testimonial-desc {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.testimonial-desc p {
+  font-size: 13px;
+}
+/* END OF testimonials */
+
+@media screen and (max-width: 960px) {
+  body {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .company-offers-cards .aero-card {
+    border-radius: 20px;
+  }
+}

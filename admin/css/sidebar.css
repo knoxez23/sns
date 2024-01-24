@@ -1,0 +1,132 @@
+/* START OF left-section */
+#left-controls-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    position: fixed;
+    max-height: 720px;
+    top: 0;
+    height: 100vh;
+    background: rgb(223, 223, 226);
+    padding: 10px 30px 20px 30px;
+    border-right: 1px solid #888;
+}
+
+#left-controls-section .left-section-top-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#left-controls-section .left-section-top-part .admin-panel-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#left-controls-section .left-section-top-part .admin-panel-logo h4 {
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#left-controls-section .left-section-top-part .admin-panel-logo .logo-picture {
+    background: #000;
+    padding: 20px 0 0 0;
+}
+
+#left-controls-section .left-section-top-part .admin-panel-logo .logo-picture h2 {
+    font-family: 'Graphik';
+    font-size: 45px;
+    color: #fff;
+}
+
+#left-controls-section .left-section-top-part .btns {
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#left-controls-section .left-section-top-part .btns h5 {
+    font-size: 10px;
+    padding: 2px 5px;
+    background: rgb(201, 201, 201);
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+#left-controls-section .left-section-top-part .btns:hover {
+    border: 1px solid #000;
+}
+
+#left-controls-section .left-section-top-part .btns:hover h5 {
+    background: rgb(145, 145, 145);
+    color: #000;
+}
+
+#left-controls-section .left-section-top-part .btn-logo {
+    display: flex;
+    gap: 10px;
+}
+
+#left-controls-section .left-section-bottom-part .logged-in-user-details {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#left-controls-section .left-section-bottom-part .logged-in-user-details .user_image {
+    width: 60px;
+    height: 60px;
+}
+
+#left-controls-section .left-section-bottom-part .logged-in-user-details .user_image img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+#left-controls-section .left-section-bottom-part .logged-in-user-details .name-and-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-family: 'Adobelight';
+}
+
+#left-controls-section .left-section-bottom-part .logged-in-user-details .name-and-email #user-name {
+    font-family: 'Adobemedium';
+    font-size: 17px;
+}
+
+#left-controls-section .left-section-bottom-part .logged-in-user-details .name-and-email #user-email {
+    font-size: 14px;
+}
+
+.logout-btn button {
+    background: #000;
+    color: #fff;
+    font-family: 'Adobelight';
+    padding: 3px 10px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.logout-btn button:hover {
+    background: #444;
+}
+
+
+/* END OF left-section */

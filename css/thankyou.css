@@ -1,0 +1,156 @@
+/* START OF thankyou */
+.top-transaction-details {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.top-transaction-details .top-thankyou-title {
+	font-family: "Adobemedium";
+	font-size: 30px;
+	width: max-content;
+	text-align: center;
+	display: flex;
+	align-self: center;
+	position: relative;
+	padding: 10px 20px;
+	border: 1px solid #000;
+}
+
+.top-transaction-details .transaction-dets-content {
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+	align-self: center;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 255, 0.151),
+		rgba(128, 0, 128, 0.13)
+	);
+	padding: 40px 20px;
+	border-radius: 15px;
+}
+
+.top-transaction-details .transaction-dets-content .left {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.top-transaction-details .transaction-dets-content .right {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	max-width: 250px;
+}
+
+.top-transaction-details .transaction-dets-content .trans-div h3 {
+	font-family: "Adobemedium";
+}
+
+.top-transaction-details .transaction-dets-content .trans-conten h4 {
+	font-size: 15px;
+}
+
+.top-transaction-details .email-notification {
+	font-family: "Thiccboibold";
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 255, 0.103),
+		rgba(128, 0, 128, 0.082)
+	);
+}
+
+.homepage-btn {
+	background: #000;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	padding: 10px 20px;
+	font-family: "Thiccboimedium";
+	color: #fff;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+
+.homepage-btn:hover {
+	background: #444;
+}
+
+.bottom-products-details .products-title {
+	font-family: "Adobebold";
+	font-size: 24px;
+	width: max-content;
+	padding: 10px;
+	position: relative;
+}
+
+.bottom-products-details .products-title::after {
+	position: absolute;
+	content: "";
+	top: 37px;
+	background: #000;
+	height: 1px;
+	width: 100%;
+	left: 0;
+}
+
+.product-div-title {
+	display: flex;
+	padding: 30px 0;
+	font-family: "Thiccboibold";
+}
+
+.bottom-section {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-bottom: 40px;
+	max-height: 44vh;
+	overflow: auto;
+}
+
+.product-div {
+	display: flex;
+	padding: 25px 0;
+	font-family: "Adobelight";
+	background: linear-gradient(
+		to left,
+		rgba(0, 0, 255, 0.192),
+		rgba(255, 192, 203, 0.247)
+	);
+	border-radius: 10px;
+}
+
+.pro-name,
+.pro-quantity,
+.pro-amount {
+	width: 33.3%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.total-amount-paid {
+	display: flex;
+	width: 70%;
+	padding-top: 30px;
+	justify-content: space-between;
+}
+
+.total-amount-paid .title-total-amnt {
+	font-family: "Adobemedium";
+	padding: 15px 25px;
+	font-size: 22px;
+	border: 1px solid #000;
+}
+.total-amount-paid .actual-total-amnt {
+	font-family: "Thiccboimedium";
+	padding: 15px 50px;
+	font-size: 22px;
+	background: #9999;
+}
+
+/* END OF thankyou */
