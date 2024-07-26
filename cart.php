@@ -32,7 +32,7 @@ session_start();
                     </div>
                     <div class="page-path">
                         <a href="index.php">Main Page</a>
-                        <div class="path"></div><a href="./sale.php">Shop</a>
+                        <div class="path"></div><a href="index.php">Shop</a>
                         <div class="path"></div><a href="#">Shopping Cart</a>
                     </div>
                 </div>

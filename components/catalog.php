@@ -113,8 +113,6 @@
                         echo "Women";
                     } else if($current_page == "kids.php") {
                         echo "Kids";
-                    } else if($current_page == "sale.php") {
-                        echo "Sale";
                     }
                     ?></a>
                 </div>
@@ -133,8 +131,6 @@
                     echo "Women's";
                 } else if($current_page == "kids.php") {
                     echo "Kid's";
-                } else if($current_page == "sale.php") {
-                    echo "Sale";
                 }
                 ?>
                 </h2>

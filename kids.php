@@ -15,7 +15,7 @@ session_start();
     <link rel="stylesheet" href="./css/catalog.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="icon" href="./assets/images/SN.png" type="image/png">
-    <link rel="canonical" href="https://www.snshop.co.ke"/>
+    <link rel="canonical" href="https://shoesnstrides.com"/>
     <script src="https://kit.fontawesome.com/2affe6feb2.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- TrustBox script -->

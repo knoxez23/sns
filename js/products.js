@@ -31,8 +31,6 @@ function responseProduct(data) {
 			proCategoryPath.href = "womens.php";
 		} else if (data.name == "Kids") {
 			proCategoryPath.href = "kids.php";
-		} else if (data.name == "Sale") {
-			proCategoryPath.href = "sale.php";
 		} else if (data.name == "Collection") {
 			proCategoryPath.href = "collection.php";
 		}

@@ -35,8 +35,6 @@ session_start();
                     <div class="page-path">
                         <a href="index.php">Main Page</a>
                         <div class="path"></div>
-                        <a href="./sale.php">Shop</a>
-                        <div class="path"></div>
                         <a href="#">Wishlist</a>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ session_start();
     <link rel="stylesheet" href="./css/catalog.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="icon" href="./assets/images/SN.png" type="image/png">
-    <link rel="canonical" href="https://www.snshop.co.ke"/>
+    <link rel="canonical" href="https://shoesnstrides.com"/>
     <!-- TrustBox script -->
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <!-- End TrustBox script -->

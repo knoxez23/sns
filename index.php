@@ -15,9 +15,9 @@ session_start();
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="icon" href="./assets/images/SN.png" type="image/png">
-    <link rel="robots" href ="https://www.snshop.co.ke/robots.txt">
-    <link rel=”image_src” href=”https://www.snshop.co.ke/assets/images/hero-pic.png" />
-    <link rel="canonical" href="https://www.snshop.co.ke"/>
+    <link rel="robots" href ="https://shoesnstrides.com/robots.txt">
+    <link rel=”image_src” href=”https://shoesnstrides.com/assets/images/hero-pic.png" />
+    <link rel="canonical" href="https://shoesnstrides.com"/>
 
     <!-- Structured Data Markup for AJ3 -->
     <script type="application/1d+json">
@@ -26,7 +26,7 @@ session_start();
             "@type": "Product",
             "name": "Air Jordan 3 Black Cement",
             "description": "The Air Jordan 3 Black Cement is a classic sneaker known for its iconic design, featuring a black leather upper, cement grey accents, and the famous elephant print. With its Air cushioning and Jumpman logo, it's a must-have for sneaker enthusiasts.",
-            "image": "https://www.snshop.co.ke/assets/images/J3-BLACK-CEMENT.webp"
+            "image": "https://shoesnstrides.com/assets/images/J3-BLACK-CEMENT.jpg"
             "brand": {
                 "@type": "Brand",
                 "name": "Air Jordan"
@@ -48,7 +48,7 @@ session_start();
 
     <meta property="og:title" content="SN-SHOP | Your Source for Trendy Sneakers in Kenya">
     <meta property="og:description" content="Explore the latest collection of sneakers in Kenya at SN-STORE. Enjoy up to 20% off on top brands like Nike. Nationwide shipping, fast delivery, and guaranteed quality. Shop now!">
-    <meta property="og:image" content="https://www.snshop.co.ke/assets/images/hero-pic.png">
+    <meta property="og:image" content="https://shoesnstrides.com/assets/images/hero-pic.png">
     <meta name="twitter:title" content="SN-SHOP | Your Source for Trendy Sneakers in Kenya">
     <meta name="twitter:description" content="Explore the latest collection of sneakers in Kenya at SN-STORE. Enjoy up to 20% off on top brands like Nike. Nationwide shipping, fast delivery, and guaranteed quality. Shop now!">
     <!-- TrustBox script -->
